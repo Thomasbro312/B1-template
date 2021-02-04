@@ -181,6 +181,14 @@ button:hover{
   color: #000000;
   font-weight: bold;
 }
+.sidy-by-side{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+}
 .payment-option{
   height: 64px;
 }
@@ -241,6 +249,14 @@ footer{
 	justify-content: flex-start;
 	align-items: stretch;
   align-content: stretch;
+  }
+  .sidy-by-side{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      align-items: stretch;
+      align-content: stretch;
   }
 }
 
