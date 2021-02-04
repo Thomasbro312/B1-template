@@ -171,13 +171,21 @@ button{
   color: #000000;
   font-weight: bold;
 }
-
+button:hover{
+  width: 100%;
+  margin-top: 1em;
+  padding: .5em;
+  background: #27AE60;
+  border: 2px solid #303030;
+  color: #000000;
+  font-weight: bold;
 .payment-option{
   height: 64px;
 }
 
 .emphasize{
-  border-left: 5px #27AE60 solid;
+  text-align: center;
+  border:none;
   box-shadow: 5px 5px 5px 5px #27AE60;
   padding: 1em;
 }
