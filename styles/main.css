@@ -178,7 +178,8 @@ button{
 
 .emphasize{
   border-left: 5px #27AE60 solid;
-  box-shadow: #27AE60 5px ;
+  box-shadow: 5px 5px 5px 5px #27AE60;
+  padding: 1em;
 }
 
 .description{
@@ -209,7 +210,12 @@ footer{
 */
 
 @media (max-width: 480px) {
-
+  .hidden-on-lg{  
+    display: block;
+  }
+  .hidden-on-sm{
+    display: none;
+  }
 }
 
 /* 
