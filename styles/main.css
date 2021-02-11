@@ -285,6 +285,9 @@ span{
       align-items: stretch;
       align-content: stretch;
   }
+  .product_img img{
+    width: 90%;
+  }
 }
 
 /* 
