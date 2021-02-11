@@ -220,6 +220,33 @@ footer{
 .hidden-on-sm{
   display: block;
 }
+.product_page{
+  border-left: 5px solid #27AE60;
+  padding-left: 10px;
+  margin: 1em 1em 1em 0;
+}
+.button button{
+  text-decoration: none;
+  width: 100%;
+  margin-top: 1em;
+  padding: .5em;
+  background: #27AE60;
+  border: 2px solid #FCFCFC;
+  color: #000000;
+  font-weight: bold;
+}
+.button button:hover{
+  width: 100%;
+  margin-top: 1em;
+  padding: .5em;
+  background: #27AE60;
+  border: 2px solid #303030;
+  color: #000000;
+  font-weight: bold;
+}
+span{
+  text-emphasis: bold;
+}
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
